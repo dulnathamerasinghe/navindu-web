@@ -1,0 +1,20 @@
+{
+  "other_tech": [
+    {
+      "name": "Filmora",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Ffilmora.png?alt=media&token=62a27c65-8dad-4036-9e46-66bb4fcb1dc6"
+    },
+    {
+      "name": "Office 365",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Foffice365.png?alt=media&token=1477a00e-fb8f-4657-907a-de5d6ef298fa"
+    },
+    {
+      "name": "Windows Terminal",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fterminal.png?alt=media&token=b4efe621-1e97-43af-b581-1eebddd3ddd5"
+    },
+    {
+      "name": "Linux Terminal",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fterminal.png?alt=media&token=b4efe621-1e97-43af-b581-1eebddd3ddd5"
+    }
+  ]
+}

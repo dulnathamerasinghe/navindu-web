@@ -1,0 +1,36 @@
+{
+  "tools_tech": [
+    {
+      "name": "GIT",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fgit.png?alt=media&token=5c545b7e-be52-4ced-850b-1fdf2e173a55"
+    },
+    {
+      "name": "VS Code",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fvscode.png?alt=media&token=b3eccc6f-abe4-43de-9c4e-c2a4477fe9d9"
+    },
+    {
+      "name": "Visual Studio",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fvisualstudeio.png?alt=media&token=2a399dd1-a7ff-4d94-8d3a-eb589b2b7fcd"
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2FintellijIDEA.png?alt=media&token=6408fe11-1470-46e9-a72d-2a7e3658de06"
+    },
+    {
+      "name": "Ecllipse",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Feclipse.png?alt=media&token=db098da1-4418-4921-8338-88131ad5dd2d"
+    },
+    {
+      "name": "Postman",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fpostman.png?alt=media&token=b979b239-2334-4fbe-88b0-0bb8e64c099a"
+    },
+    {
+      "name": "NPM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Fnpm.png?alt=media&token=cdf1d023-422a-46e8-9838-ab43d79566d0"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/skill%20icons%2Ffirebase.png?alt=media&token=4da44c55-1f99-44a1-acab-8f0a80f21196"
+    }
+  ]
+}

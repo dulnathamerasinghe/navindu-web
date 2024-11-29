@@ -1,0 +1,941 @@
+body {
+  background: #ffffff;
+  margin-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Blinker";
+}
+
+nav ul li a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ml11 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.details-text {
+  font-family: "Blinker";
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  text-decoration: none;
+}
+
+.material-icons {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.a {
+  font-size: 20px;
+}
+
+.social-icons {
+  padding-left: 12px;
+}
+
+.profile-pic {
+  width: 600px;
+  height: 600px;
+  margin-top: 20%;
+}
+
+.form-text {
+  font-family: "Blinker";
+  font-size: 22px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #1f2833;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #1177e4;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+  background: #1f2833;
+  color: #ffffff;
+  border: 1px solid #1f2833;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #1f2833;
+}
+
+.card:hover {
+  box-shadow: 1px 20px 20px grey;
+  -webkit-transition: box-shadow 0.2s ease-in;
+}
+
+.education-card:hover {
+  box-shadow: 1px 20px 20px 15px rgb(22, 19, 19);
+  -webkit-transition: box-shadow 0.2s ease-in;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100vw;
+  }
+  .home-section {
+    min-height: 100vh;
+  }
+  .title-name {
+    font-family: "Blinker";
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .title-aboutme {
+    font-family: "Blinker";
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .aboutme-section {
+    min-height: 100%;
+    background: #1f2833;
+  }
+  .aboutme-text {
+    font-family: "Blinker";
+    font-size: 18px;
+  }
+  .card {
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 460px;
+    margin-bottom: 20px;
+    color: #1f2833;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 0.8px 0.9px 3px grey;
+  }
+  .card-icons-mobile {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .card-icons-web {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+  }
+  .service-text {
+    font-size: 19px;
+  }
+  .service-web-text {
+    font-size: 19px;
+    margin-top: 25px;
+  }
+  .card-icons-design {
+    width: 110px;
+    height: 180px;
+    margin-top: 10px;
+  }
+  .service-design-text {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .education-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .education-detail-section {
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .education-card {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: "Blinker";
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .title-education {
+    font-family: "Blinker";
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .education-image {
+    width: 110px;
+    height: 110px;
+  }
+  .education-title {
+    font-size: 28px;
+  }
+  .education-text {
+    font-size: 18px;
+  }
+  .school {
+    font-size: 20px;
+  }
+  .skill-section {
+    min-height: 100vh;
+  }
+  .sub-title-skills {
+    font-family: "Blinker";
+    font-size: 25px;
+    margin-left: 0%;
+    margin-bottom: 40px;
+  }
+  .skill-detail-section {
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title-skills {
+    font-family: "Blinker";
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-cards {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skill-card {
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .skill-image {
+    width: 70px;
+    height: 70px;
+  }
+  .project-section {
+    min-height: 3950px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 60px;
+    margin-left: 0%;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 290px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .custom-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 60px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+}
+
+/* mall devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 100vw;
+  }
+  .title-name {
+    font-family: "Blinker";
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .title-aboutme {
+    font-family: "Blinker";
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .aboutme-section {
+    min-height: 100%;
+    background: #1f2833;
+  }
+  .aboutme-text {
+    font-family: "Blinker";
+    font-size: 18px;
+  }
+  .card {
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 460px;
+    margin-bottom: 20px;
+    color: #1f2833;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 0.8px 0.9px 3px grey;
+  }
+  .card-icons-mobile {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .card-icons-web {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .service-text {
+    font-size: 16px;
+  }
+  .service-web-text {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .card-icons-design {
+    width: 90px;
+    height: 140px;
+    margin-top: 10px;
+  }
+  .service-design-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .education-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .education-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .education-card {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: "Blinker";
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 460px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+
+  .title-education {
+    font-family: "Blinker";
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .education-image {
+    width: 90px;
+    height: 90px;
+  }
+  .education-title {
+    font-size: 28px;
+  }
+  .education-text {
+    font-size: 20px;
+  }
+  .school {
+    font-size: 24px;
+  }
+  .skill-section {
+    min-height: 100vh;
+  }
+  .sub-title-skills {
+    font-family: "Blinker";
+    font-size: 25px;
+    margin-left: 0%;
+    margin-bottom: 40px;
+  }
+  .skill-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-skills {
+    font-family: "Blinker";
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-cards {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skill-card {
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .skill-image {
+    width: 70px;
+    height: 70px;
+  }
+  .project-section {
+    min-height: 3330px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 630px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .custom-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 60px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 100vw;
+  }
+  .title-name {
+    font-family: "Blinker";
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .home-section {
+    min-height: 93vh;
+  }
+  .aboutme-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .detail-section {
+    margin-top: 18%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .aboutme-detail-section {
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-aboutme {
+    font-family: "Blinker";
+    font-size: 80px;
+    font-weight: 700;
+  }
+  .aboutme-text {
+    font-family: "Blinker";
+    font-size: 28px;
+  }
+  .card {
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    color: #1f2833;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 0.8px 0.9px 3px grey;
+  }
+  .card-icons-mobile {
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .card-icons-web {
+    width: 220px;
+    height: 220px;
+    margin-top: 40px;
+  }
+  .card-icons-design {
+    width: 150px;
+    height: 240px;
+    margin-top: 10px;
+  }
+  .service-text {
+    font-size: 19px;
+  }
+  .service-web-text {
+    font-size: 19px;
+    margin-top: 28px;
+  }
+  .service-design-text {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .education-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .education-detail-section {
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .education-card {
+    margin-top: 10%;
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 540px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .education-image {
+    width: 200px;
+    height: 200px;
+  }
+  .education-text {
+    font-size: 20px;
+  }
+  .title-education {
+    font-family: "Blinker";
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-section {
+    min-height: 100vh;
+  }
+  .sub-title-skills {
+    font-family: "Blinker";
+    font-size: 30px;
+    margin-left: 0%;
+    margin-bottom: 40px;
+  }
+  .skill-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-skills {
+    font-family: "Blinker";
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .skill-card {
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .skill-image {
+    width: 100px;
+    height: 100px;
+  }
+  .project-section {
+    min-height: 3300px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .custom-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 60px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 100vw;
+  }
+  .home-section {
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .detail-section {
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+  .title-name {
+    font-family: "Blinker";
+    font-size: 80px;
+    font-weight: 700;
+  }
+  .title-aboutme {
+    font-family: "Blinker";
+    font-size: 100px;
+    font-weight: 700;
+  }
+  .card {
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    color: #1f2833;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 0.8px 0.9px 3px grey;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100vw;
+  }
+  .home-section {
+    min-height: 100vh;
+  }
+  .detail-section {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .title-name {
+    font-family: "Blinker";
+    font-size: 90px;
+    font-weight: 700;
+  }
+  .aboutme-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .aboutme-detail-section {
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-aboutme {
+    font-family: "Blinker";
+    font-size: 100px;
+    font-weight: 700;
+  }
+  .aboutme-text {
+    font-family: "Blinker";
+    font-size: 32px;
+  }
+  .service-section {
+    min-height: 100vh;
+  }
+  .service-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .card {
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    color: #1f2833;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 0.8px 0.9px 3px grey;
+  }
+  .card-icons-mobile {
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .card-icons-web {
+    width: 220px;
+    height: 220px;
+    margin-top: 40px;
+  }
+  .card-icons-design {
+    width: 150px;
+    height: 240px;
+    margin-top: 10px;
+  }
+  .service-text {
+    font-size: 19px;
+  }
+  .service-web-text {
+    font-size: 19px;
+    margin-top: 28px;
+  }
+  .service-design-text {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .education-section {
+    min-height: 100vh;
+    background: #1f2833;
+  }
+  .education-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .education-card {
+    margin-top: 10%;
+    font-family: "Blinker";
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .education-image {
+    width: 300px;
+    height: 300px;
+  }
+  .education-text {
+    font-size: 20px;
+  }
+  .title-education {
+    font-family: "Blinker";
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-section {
+    min-height: 100vh;
+  }
+  .sub-title-skills {
+    font-family: "Blinker";
+    font-size: 40px;
+    margin-left: 12%;
+    margin-bottom: 40px;
+  }
+  .skill-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .title-skills {
+    font-family: "Blinker";
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .skill-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .skill-card {
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .skill-image {
+    width: 130px;
+    height: 130px;
+  }
+  .project-section {
+    min-height: 1830px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 100px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 450px;
+    height: 240px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .contact-section {
+    min-height: 100vh;
+  }
+  .contact-detail-section {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .title-contact {
+    font-size: 100px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .custom-form {
+    width: 80%;
+  }
+  .profile-pic {
+    border-radius: 50%;
+  }
+}

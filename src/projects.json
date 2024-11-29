@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "project_name": "Final Year Research",
+      "giturl": "",
+      "appurl": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolioimages-4a133.appspot.com/o/projects%2FRP.png?alt=media&token=36cc1401-3d1d-4a74-9050-75153fe25c1e&_gl=1*mkee5c*_ga*NjExMjk3ODQ5LjE2OTcxOTg5ODA.*_ga_CW55HF8NVT*MTY5NzI1NjQ2My40LjEuMTY5NzI1NzIwOS42MC4wLjA.",
+      "technologies": [
+        "React JS",
+        "Node JS",
+        "MongoDB",
+        "Express",
+        "Bootstrap",
+        "Firebase",
+        "Docker",
+        "ReactNative"
+      ],
+      "description": " A Web and a Mobile Application with an IOT device has developed for Real-Time alert system for road safety to prevent Animal-Vehicle Conflicts in Sri-Lanka to identify animals and provide solutions.",
+      "developed": true
+    },
+    {
+      "project_name": "CertX360 IOT Project",
+      "giturl": "",
+      "appurl": "",
+      "image": "",
+      "technologies": ["JAVA", "JSP", "Bootstrap", "MySQL"],
+      "description": " Phase 1 - Designed Tenant, User Sign in, Registration, and Forgot- Password, profile, Activity Status Flow and many more features which were scheduled in Phase 1. Phase 2 – Phase 1 feature Enhancements and Development on new Features",
+      "developed": true
+    },
+    {
+      "project_name": "E-Commerce (Web + Mobile) Application for Wickrama Super Supermarket",
+      "giturl": "",
+      "appurl": "",
+      "image": "",
+      "technologies": ["Node JS", "Bootstrap"],
+      "description": "Designed and developed a fully functional Online Shopping Web application for “Wickrama Super” Supermarket (Customer) • Successfully implemented business functions which Connects  both client side and server-side operations. • Build an Android Application where customers can buy and sell almost everything using their phone. • Sellers can add products to sell where customers can purchase products that they want by using this application",
+      "developed": true
+    },
+    {
+      "project_name": "Socialize App (Instagram Model)",
+      "giturl": "",
+      "appurl": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolioimages-4a133.appspot.com/o/projects%2FSociaLize.png?alt=media&token=4168cb07-79bc-4a7d-94a9-40eae55f572a&_gl=1*13salaj*_ga*NjExMjk3ODQ5LjE2OTcxOTg5ODA.*_ga_CW55HF8NVT*MTY5NzI1NjQ2My40LjEuMTY5NzI1NjUzOC42MC4wLjA.",
+      "technologies": ["React JS", "Firebase"],
+      "description": "Using MERN stack technology, I develop a similar application to Instagram. Users can quickly login to their Socilaize account using Google authentication or signin in this application. Unlike the conversation history of Instrgam app users, photos were safely saved in the mongodb database. As a result, when the user logs in again, the previous chat history and photographs are not removed, and the user can see the profile details of others.",
+      "developed": true
+    },
+    {
+      "project_name": "Online Transport Reservation System",
+      "giturl": "shorturl.at/gqwAY",
+      "appurl": "",
+      "image": "",
+      "technologies": ["React JS", "Node JS", "MongoDB", "Bootstrap"],
+      "description": "• This is an online web application named “Uni Travelers` developed and designed the system based on consumer  convenience and satisfaction in transportation. • Completed Successfully as the project leader.",
+      "developed": false
+    }
+  ]
+}

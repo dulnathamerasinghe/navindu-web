@@ -22,16 +22,25 @@
       "project_name": "CertX360 IOT Project",
       "giturl": "",
       "appurl": "",
-      "image": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolioimages-4a133.appspot.com/o/projects%2Fcertx360.png?alt=media&token=8e937832-876c-4ec0-b4f5-0b7a2d52ffc3",
       "technologies": ["JAVA", "JSP", "Bootstrap", "MySQL"],
       "description": " Phase 1 - Designed Tenant, User Sign in, Registration, and Forgot- Password, profile, Activity Status Flow and many more features which were scheduled in Phase 1. Phase 2 – Phase 1 feature Enhancements and Development on new Features",
       "developed": true
     },
     {
+      "project_name": "Enhanced POS System",
+      "giturl": "shorturl.at/gqwAY",
+      "appurl": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolioimages-4a133.appspot.com/o/projects%2FPOSys.png?alt=media&token=7869b9c3-0a68-4577-973f-b5008a612859",
+      "technologies": ["React JS", "Node JS", "MongoDB", "Bootstrap"],
+      "description": "POS (Point of Sale) system is designed to streamline retail or service-based transactions, integrating core functionalities such as inventory management, billing, payment processing, and customer data handling. With a user-friendly interface, it ensures seamless sales operations while incorporating features like cart management, product additions, and multiple payment options. ",
+      "developed": false
+    },
+    {
       "project_name": "E-Commerce (Web + Mobile) Application for Wickrama Super Supermarket",
       "giturl": "",
       "appurl": "",
-      "image": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolioimages-4a133.appspot.com/o/projects%2FWicrama%20super.jpg?alt=media&token=12334b50-ee92-4369-9d48-fd84dd092a6c",
       "technologies": ["Node JS", "Bootstrap"],
       "description": "Designed and developed a fully functional Online Shopping Web application for “Wickrama Super” Supermarket (Customer) • Successfully implemented business functions which Connects  both client side and server-side operations. • Build an Android Application where customers can buy and sell almost everything using their phone. • Sellers can add products to sell where customers can purchase products that they want by using this application",
       "developed": true
@@ -44,15 +53,6 @@
       "technologies": ["React JS", "Firebase"],
       "description": "Using MERN stack technology, I develop a similar application to Instagram. Users can quickly login to their Socilaize account using Google authentication or signin in this application. Unlike the conversation history of Instrgam app users, photos were safely saved in the mongodb database. As a result, when the user logs in again, the previous chat history and photographs are not removed, and the user can see the profile details of others.",
       "developed": true
-    },
-    {
-      "project_name": "Online Transport Reservation System",
-      "giturl": "shorturl.at/gqwAY",
-      "appurl": "",
-      "image": "",
-      "technologies": ["React JS", "Node JS", "MongoDB", "Bootstrap"],
-      "description": "• This is an online web application named “Uni Travelers` developed and designed the system based on consumer  convenience and satisfaction in transportation. • Completed Successfully as the project leader.",
-      "developed": false
     }
   ]
 }

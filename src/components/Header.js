@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../App.css";
 import { Link } from "react-scroll";
-import profileImage from "./profile.jpg";
+import profileImage from "./navpic.jpg";
+import "./Header.css"
 
 export default function Header() {
   const [aboutActive, setAboutActive] = useState("");

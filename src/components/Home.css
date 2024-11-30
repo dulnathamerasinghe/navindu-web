@@ -1,0 +1,108 @@
+/* General Section Styling */
+.home-section {
+    padding: 60px 20px;
+    /* background: linear-gradient(to right, #1e3c72, #2a5298); */
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .detail-section {
+    padding: 20px;
+    font-family: 'Blinker', sans-serif;
+  }
+  
+  .detail-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .text-wrapper .letters {
+    color: #293747;
+  }
+  
+  ul.list-inline {
+    padding: 0;
+  }
+  
+  .list-inline-item {
+    margin-right: 10px;
+  }
+  
+  .details-text {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .details-text i {
+    color: #000000;
+  }
+  
+  /* .details-text a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .details-text a:hover {
+    color: #ffdd59;
+  } */
+  
+  .social-icons {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons:hover {
+    transform: scale(1.2);
+  }
+  
+  .download-btn {
+    text-transform: uppercase;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background: #155fa0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Profile Image */
+  /* .profile-pic {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  } */
+  
+  .profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .home-section {
+      padding: 30px 10px;
+    }
+  
+    .detail-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .details-text {
+      font-size: 1rem;
+    }
+  
+    .download-btn {
+      font-size: 0.9rem;
+    }
+  
+    .profile-pic {
+      max-width: 180px;
+    }
+  }
+  

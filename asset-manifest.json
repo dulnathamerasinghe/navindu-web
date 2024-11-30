@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/navindu-web/static/css/main.9261c33c.css",
-    "main.js": "/navindu-web/static/js/main.4b549b49.js",
-    "static/media/profile.jpg": "/navindu-web/static/media/profile.b25d739bf992d0d42c7d.jpg",
+    "main.css": "/navindu-web/static/css/main.ae6d68b9.css",
+    "main.js": "/navindu-web/static/js/main.77cfa83e.js",
+    "static/media/navpic.jpg": "/navindu-web/static/media/navpic.3ebb5bb3389ce62805cc.jpg",
     "static/media/web.png": "/navindu-web/static/media/web.ce99bdce9e6ab2cbb2ac.png",
     "static/media/prototype.png": "/navindu-web/static/media/prototype.91a427571dc17a642316.png",
     "index.html": "/navindu-web/index.html",
-    "main.9261c33c.css.map": "/navindu-web/static/css/main.9261c33c.css.map",
-    "main.4b549b49.js.map": "/navindu-web/static/js/main.4b549b49.js.map"
+    "main.ae6d68b9.css.map": "/navindu-web/static/css/main.ae6d68b9.css.map",
+    "main.77cfa83e.js.map": "/navindu-web/static/js/main.77cfa83e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9261c33c.css",
-    "static/js/main.4b549b49.js"
+    "static/css/main.ae6d68b9.css",
+    "static/js/main.77cfa83e.js"
   ]
 }

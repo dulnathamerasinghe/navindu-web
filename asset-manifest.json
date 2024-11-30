@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/navindu-web/static/css/main.9261c33c.css",
+    "main.js": "/navindu-web/static/js/main.4b549b49.js",
+    "static/media/profile.jpg": "/navindu-web/static/media/profile.b25d739bf992d0d42c7d.jpg",
+    "static/media/web.png": "/navindu-web/static/media/web.ce99bdce9e6ab2cbb2ac.png",
+    "static/media/prototype.png": "/navindu-web/static/media/prototype.91a427571dc17a642316.png",
+    "index.html": "/navindu-web/index.html",
+    "main.9261c33c.css.map": "/navindu-web/static/css/main.9261c33c.css.map",
+    "main.4b549b49.js.map": "/navindu-web/static/js/main.4b549b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9261c33c.css",
+    "static/js/main.4b549b49.js"
+  ]
+}
